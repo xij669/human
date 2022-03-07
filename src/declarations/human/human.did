@@ -1,0 +1,8 @@
+service : {
+  add_to_height: (float64) -> ();
+  change_favorite_show: (opt text) -> ();
+  get_favorite_show: () -> (opt text);
+  get_height: () -> (float64) query;
+  greet: (text) -> (text);
+  set_height: (float64) -> ();
+}
